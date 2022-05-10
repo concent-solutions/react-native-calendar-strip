@@ -8,7 +8,7 @@ import styles from "./Calendar.style.js";
 
 class WeekSelector extends Component {
   static propTypes = {
-    controlDate: PropTypes.any,
+    controlDate: PropTypes.object,
     iconComponent: PropTypes.any,
     iconContainerStyle: PropTypes.oneOfType([
       PropTypes.object,
@@ -23,8 +23,7 @@ class WeekSelector extends Component {
       PropTypes.number,
       PropTypes.array
     ]),
-    imageSource: PropTypes.oneOfType([PropTypes.string, PropTypes.object, PropTypes.number]),
-    size: PropTypes.number,
+    imageSource: PropTypes.oneOfType([PropTypes.object, PropTypes.number]),
     onPress: PropTypes.func,
     weekStartDate: PropTypes.object,
     weekEndDate: PropTypes.object

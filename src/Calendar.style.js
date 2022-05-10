@@ -12,7 +12,6 @@ export default StyleSheet.create({
   datesStrip: {
     flexDirection: "row",
     flex: 1,
-    alignItems: "center",
     justifyContent: "space-between"
   },
   calendarDates: {
@@ -36,9 +35,6 @@ export default StyleSheet.create({
   },
 
   //CALENDAR DAY
-  dateRootContainer: {
-    flex: 1,
-  },
   dateContainer: {
     justifyContent: "center",
     alignItems: "center",
@@ -78,24 +74,6 @@ export default StyleSheet.create({
     backgroundColor: 'blue'
   },
   selectedDot: {
-    backgroundColor: 'blue'
-  },
-
-  // Calendar Lines
-  line: {
-    height: 4,
-    marginTop: 3,
-    borderRadius: 1,
-    opacity: 0
-  },
-  linesContainer: {
-    justifyContent: 'center'
-  },
-  visibleLine: {
-    opacity: 1,
-    backgroundColor: 'blue'
-  },
-  selectedLine: {
     backgroundColor: 'blue'
   },
 });
