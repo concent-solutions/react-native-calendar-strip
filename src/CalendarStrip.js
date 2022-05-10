@@ -4,7 +4,6 @@
 
 import React, { Component } from "react";
 import PropTypes from "prop-types";
-import {polyfill} from 'react-lifecycles-compat';
 import { View, Animated, Easing } from "react-native";
 
 import moment from "moment";
